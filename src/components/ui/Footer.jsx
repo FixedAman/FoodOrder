@@ -1,5 +1,4 @@
 import { FaFacebook, FaInstagram, FaTwitter, FaPhone, FaEnvelope } from "react-icons/fa";
-import { useRef, useState } from "react";
 
 const Header = () => {
   
