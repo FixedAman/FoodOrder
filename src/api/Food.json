@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Veg Burger",
+    "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmVnJTIwYnVyZ2VyfGVufDB8fDB8fHww",
+    "price": 149
+  },
+  {
+    "id": 2,
+    "name": "Margherita Pizza",
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8fDA%3D",
+    "price": 299
+  },
+  {
+    "id": 3,
+    "name": "Pasta Alfredo",
+    "image": "https://images.unsplash.com/photo-1686565510178-52c69af8be37?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFzdGElMjBhbGZyZWRvfGVufDB8fDB8fHww",
+    "price": 249
+  },
+  {
+    "id": 4,
+    "name": "Butter Chicken",
+    "image": "https://plus.unsplash.com/premium_photo-1661419883163-bb4df1c10109?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnV0dGVyJTIwY2hpY2tlbnxlbnwwfHwwfHx8MA%3D%3D",
+    "price": 399
+  },
+  {
+    "id": 5,
+    "name": "Paneer Tikka",
+    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFubmVyJTIwdGlra2F8ZW58MHx8MHx8fDA%3D",
+    "price": 199
+  },
+  {
+    "id": 6,
+    "name": "Chole Bhature",
+    "image": "https://media.istockphoto.com/id/1865859468/photo/chole-bathure.webp?a=1&b=1&s=612x612&w=0&k=20&c=W4Zvu824tIGkNJIXplLunEBsgIrFY9nMoKY-PDhwCxw=",
+    "price": 179
+  },
+  {
+    "id": 7,
+    "name": "Masala Dosa",
+    "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 159
+  },
+  {
+    "id": 8,
+    "name": "Biryani",
+    "image": "https://images.unsplash.com/photo-1642972420043-4736c570a716?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJpcml5YW5pfGVufDB8fDB8fHww",
+    "price": 349
+  },
+  {
+    "id": 9,
+    "name": "Gulab Jamun",
+    "image": "https://images.unsplash.com/photo-1666190092159-3171cf0fbb12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3VsYWIlMjBqYW11bnxlbnwwfHwwfHx8MA%3D%3D",
+    "price": 99
+  },
+  {
+    "id": 10,
+    "name": "Chocolate Cake",
+    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2hvY29sYXRlJTIwQ2FrZXxlbnwwfHwwfHx8MA%3D%3D",
+    "price": 249
+  },
+  {
+    "id": 11,
+    "name": "Pani Puri",
+    "image": "https://media.istockphoto.com/id/2162493302/photo/exploring-the-tangy-spicy-and-refreshing-delight-of-pani-puri-indias-favourite-street-food.webp?a=1&b=1&s=612x612&w=0&k=20&c=4IEzjXPqMhA8FLMAvnSEwNjCU7NikvP84jFvR1Eo1uo=",
+    "price": 70
+  },
+  {
+    "id": 12,
+    "name": "Chicken Shawarma",
+    "image": "https://plus.unsplash.com/premium_photo-1676517025037-62fd3d8317e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpY2tlbiUyMFNoYXdhcm1hfGVufDB8fDB8fHww",
+    "price": 199
+  },
+  {
+    "id": 13,
+    "name": "Sushi Platter",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3VzaGl8ZW58MHx8MHx8fDA%3D",
+    "price": 699
+  },
+  {
+    "id": 14,
+    "name": "Momos",
+    "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TW9tb3N8ZW58MHx8MHx8fDA%3D",
+    "price": 129
+  },
+  {
+    "id": 15,
+    "name": "Spring Rolls",
+    "image": "https://plus.unsplash.com/premium_photo-1663850685202-7ef603771118?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U3ByaW5nJTIwUm9sbHN8ZW58MHx8MHx8fDA%3D",
+    "price": 179
+  },
+  {
+    "id": 16,
+    "name": "Fish Curry",
+    "image": "https://media.istockphoto.com/id/1264335635/photo/close-up-image-of-metal-tongs-turning-crispy-fried-fish-in-a-frying-pan-goan-fish-curry-recipe.webp?a=1&b=1&s=612x612&w=0&k=20&c=JBP_7fVhHYB4LYhKuVMkaVHqBrTDA8McUKmiWnsH7pQ=",
+    "price": 299
+  },
+  {
+    "id": 17,
+    "name": "French Fries",
+    "image": "https://plus.unsplash.com/premium_photo-1672774750509-bc9ff226f3e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RnJlbmNoJTIwRnJpZXN8ZW58MHx8MHx8fDA%3D",
+    "price": 99
+  },
+  {
+    "id": 18,
+    "name": "Tandoori Chicken",
+    "image": "https://images.unsplash.com/photo-1617692855027-33b14f061079?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VGFuZG9vcmklMjBDaGlja2VufGVufDB8fDB8fHww",
+    "price": 349
+  },
+  {
+    "id": 19,
+    "name": "Dhokla",
+    "image": "https://media.istockphoto.com/id/2157592738/photo/mouthwatering-freshly-made-dhokla.webp?a=1&b=1&s=612x612&w=0&k=20&c=qjQVymnbSR_JWwVrZJoMf3Xlc5hi2U2GeH-xm9ldlVs=",
+    "price": 129
+  },
+  {
+    "id": 20,
+    "name": "Falooda",
+    "image": "https://images.unsplash.com/photo-1630823186728-b17c9f82a32d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFsb29kYXxlbnwwfHwwfHx8MA%3D%3D",
+    "price": 149
+  }
+]
