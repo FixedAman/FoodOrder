@@ -28,7 +28,7 @@ const Header = () => {
   };
 
   return (
-    <div className="min-h-screen bg-zinc-100">
+    <div className="min-h-screen bg-gray-100">
       {/* Navbar */}
       <nav className="bg-gradient-to-r from-red-500 to-orange-500 text-white p-4 shadow-md fixed top-0 w-full z-50">
         <div className="container mx-auto flex justify-between items-center">

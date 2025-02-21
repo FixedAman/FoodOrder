@@ -18,13 +18,13 @@ const FoodOrder = () => {
     ],
   };
   return (
-    <div className="container mx-auto p-6">
+    <div className="container mx-auto p-6 ">
       <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
         Our Menu
       </h1>
 
       <Slider {...settings} className="px-4">
-        {api.map((currElem) => (
+        {api.map((currElem ) => (
           <CardSection key={currElem.id} currElem={currElem} />
         ))}
       </Slider>
