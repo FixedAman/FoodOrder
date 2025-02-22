@@ -49,7 +49,7 @@ const Header = () => {
               }`}
             >
               <FaHome />
-              Hero
+              Home
             </button>
             <button
               onClick={() => scrollToSection("food", foodRef)}
