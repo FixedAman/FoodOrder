@@ -89,7 +89,7 @@ const Header = () => {
       <div
         className={`fixed top-0 left-0 h-full bg-red-600 w-64 p-6 text-white transform ${
           sidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } transition-transform duration-300 md:hidden`}
+        } transition-transform duration-300 md:hidden overflow-hidden`}
       >
         <button
           className="absolute top-4 right-4 text-2xl"
