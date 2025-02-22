@@ -49,7 +49,7 @@ const FoodOrder = () => {
     setCart([]);
   };
   return (
-    <div className="container mx-auto p-6  ">
+    <div className="container mx-auto p-6">
       <h1 className="text-4xl font-extrabold text-center text-black mb-8">
         Our <span className="text-red-500">Menu</span>
       </h1>
@@ -64,44 +64,57 @@ const FoodOrder = () => {
         ))}
       </Slider>
 
-      <div className="mt-10 p-6  w-1/3 bg-gradient-to-r from-orange-100 to-red-400 rounded-lg shadow-lg">
-        <h2 className="text-3xl font-bold text-orange-700 mb-4  flex gap-2 ">
-          <BsFillCartCheckFill /> Cart  
+      <div className="mt-10 p-6 w-full sm:w-2/3 md:w-1/2 lg:w-1/3 bg-gradient-to-r from-orange-100 to-red-400 rounded-lg shadow-lg flex flex-col">
+        {/* Heading */}
+        <h2 className="text-3xl font-bold text-orange-700 mb-4 flex gap-2 items-center">
+          <BsFillCartCheckFill /> Cart
         </h2>
+
+        {/* Cart Items */}
         {cart.length === 0 ? (
-          <p className="text-gray-600 ">Your cart is empty.</p>
+          <p className="text-gray-600">Your cart is empty.</p>
         ) : (
-          <ul>
+          <ul className="space-y-2">
             {cart.map((item, index) => (
               <li
                 key={index}
-                className="text-lg text-orange-700 font-semibold flex items-center gap-4  "
+                className="text-lg text-orange-700 font-semibold flex flex-col sm:flex-row items-start sm:items-center gap-2"
               >
+                {/* Item Image (Hidden on Mobile) */}
                 <img
                   src={item.image}
                   alt={item.name}
-                  className="w-12 h-12 object-cover rounded-full mt-2 "
+                  className="w-12 h-12 object-cover rounded-full hidden sm:block"
                 />
-                {item.name} - ₹{item.price} x {item.quantity}
+
+                {/* Item Details */}
+                <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2">
+                  <span className="break-words">{item.name}</span>
+                  <span className="whitespace-nowrap">
+                    - ₹{item.price} x {item.quantity}
+                  </span>
+                </div>
               </li>
             ))}
           </ul>
         )}
-        <div className="text-2xl font-bold text-red-600 mt-4 flex gap-2 cursor-pointer ">
-          Total: ₹{totalPrice}
+
+        {/* Total and Actions */}
+        <div className="text-2xl font-bold text-red-600 mt-4 flex flex-col sm:flex-row gap-2 items-center">
+          <span>Total: ₹{totalPrice}</span>
           {cart.length > 0 && (
-            <>
+            <div className="flex gap-2">
               <RxCross2
                 onClick={cartCross}
-                className="h-4 mt-2 cursor-pointer"
+                className="h-6 w-6 cursor-pointer hover:text-red-700"
               />
               <button
-                className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition "
+                className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition"
                 onClick={handleOrder}
               >
                 Order Now
               </button>
-            </>
+            </div>
           )}
         </div>
       </div>
